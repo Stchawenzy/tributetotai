@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav-bar a:hover {
+    background-color: #a19a9a;
+    color: white;
+    border-radius: 3px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 15px 0 14px 18px;
+}
+
+.header-title h2 {
+    font-size: 35px;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+.header-title p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.header-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 14px 18px;
+}
+
+.section h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.section ul {
+    padding-left: 40px;
+}
+
+.section ul li {
+    padding-bottom: 5px;
+}
+
+.section ul li strong {
+    font-size: 16px;
+}
+
+.section blockquote {
+    padding: 20px 0 40px 40px;
+}
+
+.section blockquote p {
+    padding-top: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 20px 18px
+}
+
+.footer p {
+    color: grey;
+    padding-right: 50px;
+}
