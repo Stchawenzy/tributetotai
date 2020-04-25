@@ -53,6 +53,10 @@ body {
     justify-content: center;
 }
 
+.header-image img {
+    width: 95%;
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -96,4 +100,7 @@ body {
 .footer p {
     color: grey;
     padding-right: 50px;
+}
+
+@media screen and  (min-width: 560px) 
 }
